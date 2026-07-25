@@ -19,6 +19,7 @@ enum class FileFormats(val extensions: List<String>, vararg val mimeTypes: Strin
         "application/vnd.djvu"
     ),
     PDF(listOf("pdf"), "application/pdf"),
+    EPUB(listOf("epub"), "application/epub+zip"),
 
     XPS(
         listOf("xps", "oxps"),

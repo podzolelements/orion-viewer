@@ -62,6 +62,7 @@ fun getIconByNameExtension(name: String): Int {
     return when (name.fileExtensionLC) {
         "pdf" -> R.drawable.pdf
         "djvu", "djv" -> R.drawable.djvu
+        "epub" -> R.drawable.pdf
         "xps", "oxps" -> R.drawable.xps
         "xml" -> R.drawable.xml
         "cbz", "tif", "tiff" -> R.drawable.cbz
